@@ -1,0 +1,307 @@
+h1{
+   height: 150px;
+   text-align: center;
+   margin: auto;
+   font-size: 60px;
+   margin-top: 200px;
+   margin-bottom: 120px;
+   color: goldenrod;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+   color: rgb(15, 15, 85);
+   font-size: 40px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: serif;
+}
+h3{
+   color: rgb(160, 118, 40);
+   font-size: 15px;
+   font-family: cursive;
+   margin-top: 0px;
+}
+p{
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+   font-size: 18px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+   width: 350px;
+   height: 200px;
+
+}
+button{
+   color: blue;
+   border: 1px solid blue;
+   border-radius: 7px;
+   height: 50px;
+   width: 150px;
+   font-family: sans-serif;
+   font-size:14px;
+}
+.btnbox{
+   display: grid;
+   margin-top: 10px;
+   grid-gap: 10px;
+}
+#followbtn{
+   background-color: rgb(127, 140, 252);
+   color: white;
+   height: 50px;
+   width: 120px;
+   font-weight: 700;
+}
+.BlogHomepage{
+   border: 2px solid green;
+   background-image: url(images/milky-way-2695569_960_720.jpg);
+   background-size: contain;
+}
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 150px;
+}
+.navbarimg{
+   height: 70px;
+   width: 200px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 15px;
+   margin-right: 250px;
+   margin-top: 12px;
+}
+.firstbox{
+   color: papayawhip;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blogrows{
+   margin-left: 80px;
+   margin-right: 80px;
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   grid-template-rows: repeat(3 , 600px);
+   grid-gap: 70px;
+}
+.postcardbox{
+   background-color: palegoldenrod;   
+   border-radius: 5px;
+   padding-left: 12px;
+}
+.footer{
+   background-color: lightblue;
+   height: 200px;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.container{
+   text-align: center;
+   margin: auto;
+   margin-right: 150px;
+}
+#copyright{
+   color:  orange;
+   font-size: 14px;
+}
+.lastbox{
+   display: grid;
+   padding-right: 50px;
+   padding-left: 30px;
+   padding-top: 20px;
+   background-color: tomato;
+}
+#lastrightbox{
+   color: white;
+   font-size: 20px;
+}
+@media (min-width: 600px) and (max-width: 1250px){
+   h1{
+      height: 120px;
+      text-align: center;
+      margin: auto;
+      font-size: 50px;
+      margin-top: 150px;
+      margin-bottom: 95px;
+      color: goldenrod;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   img {
+      width: 245px;
+      height: 160px;
+   
+   }
+   button{
+      height: 40px;
+      width: 140px;
+      font-size:14px;
+   }
+   .btnbox{
+      margin-top: 8px;
+      grid-gap: 10px;
+   }
+   #followbtn{
+      height: 40px;
+      width: 110px;
+   }
+   .navbar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 140px;
+      
+   }
+   .navbarimg{
+      height: 55px;
+      width: 170px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 15px;
+      margin-right: 140px;
+      margin-top: 12px;
+   }
+   .firstbox{
+      color: papayawhip;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .blogrows{
+      margin-left: 20px;
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      grid-template-rows: repeat(5 , 580px);
+      grid-gap: 30px;
+   
+   }
+   .footer{
+      background-color: lightblue;
+      height: 180px;
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+   }
+   .container{
+      text-align: center;
+      margin-right: 55px;
+      margin-left: 55px;
+   }
+   #containerpara{
+      font-size: 11px;
+   }
+   #copyright{
+      color:  orange;
+      font-size: 10px;
+   }
+   .lastbox{
+      display: grid;
+      grid-auto-rows: minmax(10px , 70px);
+      padding-right: 30px;
+      padding-left: 15px;
+      padding-top: 10px;
+      background-color: tomato;
+   }
+   #lastrightbox{
+      color: white;
+      font-size: 15px;
+   }
+}
+@media(max-width: 601px)
+{
+   h1{
+      height: 100px;
+      text-align: center;
+      margin: auto;
+      font-size: 40px;
+      margin-top: 110px;
+      margin-bottom: 70px;
+      color: goldenrod;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   img{
+      width: 300px;
+      height: 180px;
+   
+   }
+   button{
+      height: 40px;
+      width: 130px;
+      font-size:13px;
+   }
+   .btnbox{
+      margin-top: 10px;
+      grid-gap: 10px;
+   }
+   #followbtn{
+      height: 40px;
+      width: 100px;
+   }
+   .navbar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 130px;
+      
+   }
+   .navbarimg{
+      height: 45px;
+      width: 140px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 15px;
+      margin-right: 90px;
+      margin-top: 12px;
+   }
+   .firstbox{
+      color: papayawhip;
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .blogrows{
+      margin-left: 50px;
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+      grid-template-rows: repeat(9 , 580px);
+      grid-gap: 50px;
+   
+   }
+   .footer{
+      background-color: lightblue;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+   }
+   .container{
+      text-align: center;
+      margin-right: 55px;
+      margin-left: 55px;
+   }
+   #containerpara{
+      font-size: 10px;
+   }
+   #copyright{
+      color:  orange;
+      font-size: 9px;
+   }
+   .lastbox{
+      display: grid;
+      grid-auto-rows: minmax(10px , 70px);
+      padding-right: 30px;
+      padding-left: 15px;
+      padding-top: 10px;
+      background-color: tomato;
+   }
+   #lastrightbox{
+      color: white;
+      font-size: 12px;
+   }
+}
+
+
