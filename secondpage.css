@@ -1,48 +1,68 @@
-h1{
+h1 {
     font-size: 60px;
     color: olivedrab;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
     grid-area: tr;
 }
-h3{
+
+h3 {
     color: rgb(160, 118, 40);
     font-size: 15px;
     font-family: cursive;
     margin-top: 0px;
- }
-p{
+}
+
+p {
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 150px;
     grid-area: fg;
 }
-a{
+
+a {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-span{
-    font-size: 20px;
-    color: red;
-}
+
 img {
     width: 40px;
     height: 40px;
     border-radius: 100px;
 }
-.BlogHomepage{
+
+figure {
+    margin: auto;
+    grid-area: bf;
+}
+
+figcaption {
+    color: crimson;
+    font-size: 15px;
+    text-align: right;
+} 
+
+span {
+    font-size: 20px;
+    color: red;
+}   
+
+.BlogHomepage {
     border: 2px solid green;
     background-image: url(images/milky-way-2695569_960_720.jpg);
     background-size: contain;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 150px;   
 }
+
 .navbarimg {
     height: 70px;
     width: 200px;
@@ -53,12 +73,14 @@ img {
     margin-right: 250px;
     margin-top: 12px;
 }
-.firstbox{
+
+.firstbox {
     color: papayawhip;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.blogpart{
+
+.blogpart {
     width: 80%;
     border: 3px solid gray;
     background-color: rgb(231, 229, 229);
@@ -78,12 +100,14 @@ img {
     "gh gh gh gh gh"
     "er er er er er"
 }
-.avatarpart{
+
+.avatarpart {
     display: grid;
     margin-top: 10px;
     grid-area: tk;
 }
-.avatar{
+
+.avatar {
     width: 80px;
     height: 80px;
     border-radius: 100px;
@@ -91,92 +115,113 @@ img {
     margin-right: 20px;
     grid-area: sd;
 }
-#authorinf{
+
+#authorinf {
     color: blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    text-decoration: underline;
     margin-bottom: 10px;
 }
-#imagepart{
+
+#imagepart {
     width: 820px;
     height: 230px;
-    grid-area: bf;
-    margin: auto;
     margin-bottom: 20px;
     border-radius: 0px;
 }
-#firstpara{
+
+#firstpara {
     margin-top: 70px;
 }
-#parapart1{
+
+#parapart1 {
     grid-area: bn;
 }
-#parapart2{
+
+#parapart2 {
     grid-area: qw;
-    
 }
-#parapart3{
+
+#parapart3 {
     grid-area: zx;
 }
-#parapart4{
+
+#parapart4 {
     grid-area: as;
 }
-#parapart5{
+
+#parapart5 {
     grid-area: gh;
     margin-bottom: 100px;
 }
-.socialmedia{
+
+.socialmedia {
     grid-area: er;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 70px;
 }
-.backhome{
+
+.backhome {
     height: 100px;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
+
 @media (min-width: 600px) and (max-width: 1100px){
-    h1{
+    h1 {
         font-size: 40px;
         color: olivedrab;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 40px;
+        margin-left: 30px;
         grid-area: tr;
     }
-    h3{
+
+    h3 {
         color: rgb(160, 118, 40);
         font-size: 13px;
         font-family: cursive;
         margin-top: 0px;
-     }
-    p{
+    }
+
+    p {
         font-size: 14px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-bottom: 15px;
-        margin-left: 27px;
+        margin-left: 45px;
         margin-right: 80px;
         grid-area: fg;
     }
-    a{
+
+    a {
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    span{
+
+    span {
         font-size: 17px;
         color: red;
     }
+
     img {
         width: 35px;
         height: 35px;
         border-radius: 100px;
     }
-    .navbar{
+
+    figcaption {
+            font-size: 12px;
+    }     
+
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 120px;   
+        margin-bottom: 120px;
     }
+
     .navbarimg {
         height: 55px;
         width: 170px;
@@ -187,59 +232,67 @@ img {
         margin-right: 140px;
         margin-top: 11px;
     }
+
     .firstbox {
         color: papayawhip;
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .blogpart{
+
+    .blogpart {
         width: 90%;
         border: 2px solid gray;
         background-color: rgb(231, 229, 229);
         padding-top: 2px;
         padding-left: 20px;
     }
-    .avatarpart{
+
+    .avatarpart {
         display: grid;
         margin-top: 8px;
         grid-area: tk;
     }
-    .avatar{
+
+    .avatar {
         width: 65px;
         height: 65px;
         border-radius: 100px;
-        margin-left: 60px;
+        margin-left: 110px;
         margin-right: 15px;
         grid-area: sd;
     }
+
     #authorinf {
         color: blueviolet;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 16px;
         margin-bottom: 6px;
     }
-    #imagepart{
+
+    #imagepart {
         width: 500px;
         height: 190px;
-        grid-area: bf;
-        margin: auto;
         margin-bottom: 17px;
         border-radius: 0px;
     }
+
     #firstpara {
         margin-top: 50px;
     }
-    #parapart5{
+
+    #parapart5 {
         grid-area: gh;
         margin-bottom: 80px;
     }
-    .socialmedia{
+
+    .socialmedia {
         grid-area: er;
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 20px;
     }
-    .backhome{
+
+    .backhome {
         height: 80px;
         display: flex;
         justify-content: center;  
@@ -247,21 +300,24 @@ img {
         margin-bottom: 10px;
     }
 }
-@media(max-width: 601px){
-    h1{
+@media(max-width: 601px) {
+    h1 {
         font-size: 30px;
         color: olivedrab;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 30px;
+        margin-left: 15px;
         grid-area: tr;
     }
-    h3{
+
+    h3 {
         color: rgb(160, 118, 40);
         font-size: 12px;
         font-family: cursive;
         margin-top: 0px;
     }
-    p{
+
+    p {
         font-size: 12px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-bottom: 12px;
@@ -269,25 +325,34 @@ img {
         margin-right: 40px;
         grid-area: fg;
     }
-    a{
+
+    a {
         font-size: 14px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    span{
+
+    span {
         font-size: 15px;
         color: red;
     }
+
     img {
         width: 30px;
         height: 30px;
         border-radius: 100px;
     }
-    .navbar{
+
+    figcaption {
+        font-size: 10px;
+    }      
+
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 90px;   
+        margin-bottom: 90px;
     }
+
     .navbarimg {
         height: 45px;
         width: 140px;
@@ -298,24 +363,28 @@ img {
         margin-right: 115px;
         margin-top: 10px;
     }
+
     .firstbox {
         color: papayawhip;
         font-size: 18px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    .blogpart{
+
+    .blogpart {
         width: 90%;
         border: 2px solid gray;
         background-color: rgb(231, 229, 229);
         padding-top: 1px;
         padding-left: 10px;
     }
-    .avatarpart{
+
+    .avatarpart {
         display: grid;
         margin-top: 6px;
         grid-area: tk;
     }
-    .avatar{
+
+    .avatar {
         width: 55px;
         height: 55px;
         border-radius: 100px;
@@ -323,13 +392,15 @@ img {
         margin-right: 12px;
         grid-area: sd;
     }
-    #authorinf{
+
+    #authorinf {
         color: blueviolet;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 14px;
         margin-bottom: 4px;
     }
-    #imagepart{
+
+    #imagepart {
         width: 400px;
         height: 170px;
         grid-area: bf;
@@ -337,20 +408,24 @@ img {
         margin-bottom: 8px;
         border-radius: 0px;
     }
-    #firstpara{
+
+    #firstpara {
         margin-top: 40px;
     }
-    #parapart5{
+
+    #parapart5 {
         grid-area: gh;
         margin-bottom: 60px;
     }
-    .socialmedia{
+
+    .socialmedia {
         grid-area: er;
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 15px;
     }
-    .backhome{
+
+    .backhome {
         height: 60px;
         display: flex;
         justify-content: center;  

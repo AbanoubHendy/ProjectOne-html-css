@@ -1,0 +1,122 @@
+h3{
+    color: rgb(160, 118, 40);
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 0px;
+ }
+ p{
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ a{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.footer {
+    background-color: lightblue;
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    margin-right: 150px;
+}
+
+#copyright {
+    color:  orange;
+    font-size: 14px;
+}
+
+.lastbox {
+    display: grid;
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: tomato;
+}
+
+#lastrightbox {
+    color: white;
+    font-size: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1250px){
+    .footer {
+        background-color: lightblue;
+        height: 180px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        text-align: center;
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+
+    #containerpara {
+        font-size: 11px;
+    }
+
+    #copyright {
+        color:  orange;
+        font-size: 10px;
+    }
+
+    .lastbox {
+        display: grid;
+        grid-auto-rows: minmax(10px , 70px);
+        padding-right: 30px;
+        padding-left: 15px;
+        padding-top: 10px;
+        background-color: tomato;
+    }
+
+    #lastrightbox {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 601px){
+    .footer {
+        background-color: lightblue;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        text-align: center;
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+
+    #containerpara {
+        font-size: 10px;
+    }
+
+    #copyright {
+        color:  orange;
+        font-size: 9px;
+    }
+
+    .lastbox {
+        display: grid;
+        grid-auto-rows: minmax(10px , 70px);
+        padding-right: 30px;
+        padding-left: 15px;
+        padding-top: 10px;
+        background-color: tomato;
+    }
+
+    #lastrightbox {
+        color: white;
+        font-size: 12px;
+    }
+}

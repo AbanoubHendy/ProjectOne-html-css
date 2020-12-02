@@ -1,0 +1,86 @@
+a {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BlogHomepage {
+    border: 2px solid green;
+    background-image: url(images/milky-way-2695569_960_720.jpg);
+    background-size: contain;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 150px;
+}
+
+.navbarimg {
+        height: 70px;
+        width: 200px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 15px;
+        margin-right: 250px;
+        margin-top: 12px;
+}
+
+.firstbox {
+        color: papayawhip;
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 1250px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+    .navbarimg {
+        height: 55px;
+        width: 170px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 15px;
+        margin-right: 140px;
+        margin-top: 12px;
+    }
+
+    .firstbox {
+        color: papayawhip;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+@media(max-width: 601px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 130px;
+    }
+
+    .navbarimg {
+        height: 45px;
+        width: 140px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 15px;
+        margin-right: 90px;
+        margin-top: 12px;
+    }
+
+    .firstbox {
+        color: papayawhip;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+}
+
