@@ -49,12 +49,12 @@ button {
 } 
 
 .blogrows {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     grid-template-rows: repeat(3 , 600px);
-    grid-gap: 70px;
+    grid-gap: 40px;
 }
 
 .postcardbox {
