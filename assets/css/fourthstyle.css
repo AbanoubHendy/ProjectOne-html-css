@@ -10,7 +10,9 @@
     text-align: center;
     margin: auto;
 }
-
+#containerpara{
+    font-style: normal;
+}
 #copyright {
     color:  orange;
     font-size: 14px;
@@ -27,9 +29,10 @@
 #lastrightbox {
     color: white;
     font-size: 20px;
+    
 }
 
-@media (min-width: 600px) and (max-width: 1250px){
+@media (min-width: 601px) and (max-width: 1250px){
     .footer {
         background-color: lightblue;
         height: 180px;
@@ -68,7 +71,7 @@
     }
 }
 
-@media(max-width: 601px){
+@media(max-width: 600px){
     .footer {
         background-color: lightblue;
         height: 150px;

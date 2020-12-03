@@ -26,6 +26,7 @@ p {
 a {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
 }
 
 img {
@@ -48,11 +49,11 @@ figcaption {
 span {
     font-size: 20px;
     color: red;
+    font-weight: bold;
 }   
 
 .BlogHomepage {
     border: 2px solid green;
-    background-image: url(images/milky-way-2695569_960_720.jpg);
     background-size: contain;
 }
 
@@ -169,7 +170,7 @@ span {
     justify-content: center;
 }
 
-@media (min-width: 600px) and (max-width: 1100px){
+@media (min-width: 601px) and (max-width: 1250px){
     h1 {
         font-size: 50px;
         color: olivedrab;
@@ -198,11 +199,13 @@ span {
     a {
         font-size: 16px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blueviolet;
     }
 
     span {
         font-size: 17px;
         color: red;
+        font-weight: bold;
     }
 
     img {
@@ -230,7 +233,7 @@ span {
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 15px;
         margin-right: 140px;
-        margin-top: 11px;
+        margin-top: 12px;
     }
 
     .firstbox {
@@ -300,7 +303,7 @@ span {
         margin-bottom: 10px;
     }
 }
-@media(max-width: 601px) {
+@media(max-width: 600px) {
     h1 {
         font-size: 30px;
         color: olivedrab;
@@ -329,11 +332,13 @@ span {
     a {
         font-size: 14px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blueviolet;
     }
 
     span {
         font-size: 15px;
         color: red;
+        font-style: bold;
     }
 
     img {
@@ -355,18 +360,18 @@ span {
 
     .navbarimg {
         height: 45px;
-        width: 140px;
+        width: 100px;
         border-top-left-radius: 15px;
         border-top-right-radius: 40px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 15px;
-        margin-right: 115px;
-        margin-top: 10px;
+        margin-right: 0px;
+        margin-top: 12px;
     }
 
     .firstbox {
         color: papayawhip;
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -401,8 +406,7 @@ span {
     }
 
     #imagepart {
-        width: 400px;
-        height: 170px;
+        width: 100%;
         grid-area: bf;
         margin: auto;
         margin-bottom: 8px;

@@ -1,19 +1,18 @@
 a {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
 }
 
 .BlogHomepage {
     border: 2px solid green;
-    background-image: url(images/milky-way-2695569_960_720.jpg);
     background-size: contain;
 }
 
 .navbar {
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        margin-bottom: 150px;
+        align-items: center;     
 }
 
 .navbarimg {
@@ -33,7 +32,7 @@ a {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (min-width: 600px) and (max-width: 1250px){
+@media (min-width: 601px) and (max-width: 1250px){
     .navbar {
         display: flex;
         justify-content: space-around;
@@ -59,29 +58,29 @@ a {
     }
 }
 
-@media(max-width: 601px){
+@media(max-width: 600px){
     .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 130px;
     }
 
     .navbarimg {
         height: 45px;
-        width: 140px;
+        width: 100px;
         border-top-left-radius: 15px;
         border-top-right-radius: 40px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 15px;
-        margin-right: 90px;
+        margin-right: 0px;
         margin-top: 12px;
     }
 
     .firstbox {
         color: papayawhip;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
      }
 }
 
